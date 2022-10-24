@@ -1,0 +1,459 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.body{
+    -webkit-animation: zero 5s forwards;
+    -o-animation: zero 5s forwards;
+    animation: zero 5s forwards;
+}
+.logo{
+    text-align: center;
+}
+main{
+    height: 100%;  
+    width: 100%;
+}
+.main{
+  height: 100%;
+  background: url(../img/trees-black-monochrome-minimalism-sky-silhouette-branch-tree-leaf-plant-darkness-atmospheric-phenomenon-computer-wallpaper-black-and-white-monochrome-photography-woody-plant-145036.jpg) center/cover no-repeat;
+}
+
+/*.preloade{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 10000;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: orange;
+    left: 50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%);
+    animation: 1s spin infinite linear;
+}*/
+@keyframes spin{
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: black;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    line-height: 60px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    float: left;
+    -webkit-animation: coming 2s;
+    -o-animation: coming 2s;
+    animation: coming 2s;
+}
+
+.Menu{
+    float: left;
+}
+.Menu li{
+    color: red;
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+.Menu li a:visited{
+    color: white;
+}
+.Menu li a{
+    transition: all 200ms ease;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+.Menu li a:hover{
+    color: darkorange;
+    transform: scale(1.1);
+}
+.title__container h1{
+    font-size: 40px;
+    color: white;
+}
+.title__container h4{
+    font-size: 20px;
+    color: white;
+}
+.title__container input{
+    border: 2px solid white;
+    background: gray;
+    border-radius: 5%;
+    color: white;
+    line-height: 20px;
+    transition: all 400ms ease;   
+    transform: scale(1);
+    padding: 3px;
+}
+.title__container input:hover{
+    background: white;
+    color: gray;
+    position: relative;
+    z-index: 100;
+}
+.title__container input:active{
+    transform: scale(1.1);
+}
+.inform{
+  width: 100%;
+  500px;
+}
+.inform h2{
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.Hz{
+    width: 50px;
+    border-top:3px solid #eb7800;
+    text-align: center;
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+}
+.ps{
+    margin-top: 39px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px; 
+    height: 150px;
+    background: url(../img/pasha.jpg) 100% 40%/auto 135% no-repeat;
+}
+.inform h5{
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    padding-top: 30px; 
+    padding-bottom: 35px;
+} 
+.inform p{
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    padding-bottom: 35px;
+} 
+
+.inform input{
+    transition: 400ms all ease;
+    transform: scale(1);
+}
+.inform input:hover{
+    background-color: gray;
+    color: white;
+}
+.inform input:active{
+    transform: scale(1.1);
+    
+}
+
+.hz {
+    width: 50px;
+    border-top:3px solid #eb7800;
+    text-align: center;
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -25px; 
+}
+
+.inform input{
+    border: 2px solid #697784;
+    border-radius: 5%;
+    color: #697784;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.infograph{
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 500px;
+  background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg.png) center/cover no-repeat;
+}
+.hs{
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 46px;
+    text-align: center;
+}
+.infograph h2{
+    font-size: 18px;
+    color: #e97700;
+}
+.infograph p{
+    font-size: 11px;
+    width: 80%;
+    padding-top: 12px;
+    margin: 0 auto;
+}
+.infograph img{
+  width: 20%;
+  margin-bottom: 10px;
+}
+.cases {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15%;
+}
+.cases p{
+  margin-top: 25px;
+}
+.cases img{
+  width: 100%;
+}
+.cases p{
+    text-align: center;
+    font-size: 13px;
+}
+.cases pm{
+    font-weight: 700;
+    font-size: 20px;
+}
+.cases pp{
+  font-size: 20px;
+  font-weight: 700;
+}
+.cases input{
+    border: 2px solid #00b6af;
+    background: #00b6af;
+    border-radius: 5%;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;  
+    transition: all 100ms ease;
+    transform: scale(1);
+}
+.cases input:hover{
+    color: white;
+    background-color: orange;
+    border-color: orange; 
+}
+.cases input:active{
+    transform: scale(1.1);
+}
+
+.nazv {
+    text-align: left;
+    font-size: 17px;
+}
+.nazv p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cost{
+  width: 100%;
+  height: 100%;
+}
+.cost p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.type{
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.type select{
+    border: 2px solid #efefef;
+    color: #737373;
+    border-radius: 1%;
+    background: #efefef;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
+    transition: 300ms all ease;
+    transform: scale(1);
+}
+.type select:hover{
+    color: black;
+    background-color: silver;
+}
+.type select:active{
+    transform: scale(1.01);
+}
+.strok{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 50px;
+    line-height: 35px;
+}
+.HZ{
+    border-top:3px solid #efefef;
+    display: block;
+    text-align: center;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.cost p{
+  margin-top: 100px;
+}
+.stats{
+    height: 500px;
+    background:url(../img/фон.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+.st{
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.stats img{
+  width: 20%;
+}
+.stats h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.stats p{
+  font-size: 15px;
+}
+
+.reviews{
+    height: 500px;
+} 
+.rev{
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.chel img{
+    padding-top: 7%;
+    width: 150px;
+}
+.text{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.contacts{
+  width: 100%;
+  height: 100%;
+  background:url(../img/Tip.jpg) center/cover no-repeat;
+  color: #fff;
+}
+.contacts h2{
+    padding-top: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contacts h5{
+    padding-top: 5%;
+}
+.contacts h4{
+    font-size: 15px;
+}
+.contacts img{
+  width: 10%;
+}
+.fir input{
+    width: 100%; 
+    height: 30px;
+    transition: all 200ms ease;
+    transform: scale(1);
+    color: black;
+}
+.fir input:hover{
+    background-color: darkgray;
+}
+.fir input:active{
+    transform: scale(1.01);
+}
+.lst{
+    margin-top: 4px;
+}
+.lst input{
+    width: 100%;
+    height: 60px;
+    transition: all 200ms ease;
+    transform: scale(1);
+    color: black;    
+}
+.lst input:hover{
+    background-color: darkgray;
+}
+.lst input:active{
+    transform: scale(1.01);
+}
+.Ls{
+    margin-top: 7%;
+}
+.Ls input{
+    border: 1px solid white;
+    border-radius: 7%;
+    padding: 3px 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    border-bottom-color: white;
+    transition: all 200ms ease;
+    transform: scale(1);
+}
+.Ls input:hover{
+    background-color: white;
+    color: darkblue;
+}
+.Ls input:active{
+    transform: scale(1.1);
+}
+.sas p{
+  font-size: 15px;
+  font-weight: 600;
+}
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+.map iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+}
